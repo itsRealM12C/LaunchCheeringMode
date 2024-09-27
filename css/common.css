@@ -127,7 +127,7 @@ background-repeat: no-repeat;
     position: relative;
 }
 .slider-text:after {
-    content: "slide to root";
+    content: "slide to launch app";
     position: absolute;
     left: 0;
     text-shadow: none;
