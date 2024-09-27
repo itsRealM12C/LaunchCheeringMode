@@ -187,7 +187,7 @@
             request('ssap://com.webos.applicationManager/listApps', {}, function(msg) {
               if (msg.type === 'response') {
                 const candidates = {
-                  "com.webos.app.cheeringtv": {
+                  "com.pavgv.app": {
                     priority: 1000,
                     params: { server: url.replace('http://', '').replace('https://', '') + "#" },
                   },
